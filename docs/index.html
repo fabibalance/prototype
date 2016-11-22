@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+    <!--
+  * Please see the included README.md file for license terms and conditions.
+  -->
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="galleria/galleria.classic.css">
+        <link rel="stylesheet" type="text/css" href="icon-fonts/font-awesome-4.3.0/css/font-awesome.css">
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+        <meta charset="UTF-8">
+        <title>Blank App Designer Packaged Web App Project Template</title>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+        <!--
+  * The "meta viewport" tag (below) helps your app size appropriately to a device's ideal viewport.
+  * Note that Windows device viewports work better when initialized using the @viewport CSS rule.
+  * For a quick overview of "meta viewport" and @viewport, see this article:
+  *   http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/quick-tip-dont-forget-the-viewport-meta-tag
+  * To see how it works, try your app on a real device with and without a "meta viewport" tag.
+  * Additional useful references include:
+  *   http://www.quirksmode.org/mobile/viewports.html
+  *   http://www.quirksmode.org/mobile/metaviewport/devices.html
+  *   https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html
+-->
+
+        <!-- <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1"> -->
+        <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=no">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes, minimum-scale=1, maximum-scale=2"> -->
+
+        <style>
+            /* following three (cascaded) are equivalent to above three meta viewport statements */
+            /* see http://www.quirksmode.org/blog/archives/2014/05/html5_dev_conf.html */
+            /* see http://dev.w3.org/csswg/css-device-adapt/ */
+                @-ms-viewport { width: 100vw ; min-zoom: 100% ; zoom: 100% ; }          @viewport { width: 100vw ; min-zoom: 100% zoom: 100% ; }
+                @-ms-viewport { user-zoom: fixed ; min-zoom: 100% ; }                   @viewport { user-zoom: fixed ; min-zoom: 100% ; }
+                /*@-ms-viewport { user-zoom: zoom ; min-zoom: 100% ; max-zoom: 200% ; }   @viewport { user-zoom: zoom ; min-zoom: 100% ; max-zoom: 200% ; }*/
+        </style>
+
+        <link rel="stylesheet" href="css/app.css">
+        <link rel="stylesheet" type="text/css" href="css/index_main.less.css" class="main-less">
+
+        <!-- IMPORTANT: Do not include a weinre script tag as part of your release builds! -->
+        <!-- Place your remote debugging (weinre) script URL from the Test tab here, if it does not work below -->
+        <!-- <script src="http://debug-software.intel.com/target/target-script-min.js#insertabiglongfunkynumberfromthexdkstesttab"></script> -->
+
+        <!-- Recommended location for your JavaScript libraries -->
+        <!-- These library references (below) are just examples to give you the general idea... -->
+        <!-- <script src="lib/mc/hammer.js"></script> -->
+        <!-- <script src="lib/ft/fastclick.js"></script> -->
+
+        
+
+        <script src="js/app.js"></script>
+        <!-- for your event code, see README and file comments for details -->
+        <script src="js/init-app.js"></script>
+        <!-- for your init code, see README and file comments for details -->
+        <script src="xdk/init-dev.js"></script>
+        <!-- normalizes device and document ready events, see file for details -->
+        <script type="application/javascript" src="lib/jquery.min.js"></script>
+        <script type="application/javascript" src="js/index_user_scripts.js"></script>
+        <script type="application/javascript" src="xdk/ad/bs_subpage.js"></script>
+        <script type="application/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+        <script type="application/javascript" src="marginal/marginal-position.min.js"></script>
+        <script type="application/javascript" src="sidebar/js/hammer.js"></script>
+        <script type="application/javascript" src="sidebar/js/jquery.hammer.js"></script>
+        <script type="application/javascript" src="sidebar/js/swipe-hammer.js"></script>
+        <script type="application/javascript" src="sidebar/js/sidebar.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script type="application/javascript" src="galleria/galleria-1.3.6.min.js"></script>
+        <script type="application/javascript" src="galleria/galleria.classic.min.js"></script>
+        <script type="application/javascript" src="galleria/galleria-startup.js"></script>
+    </head>
+
+    <body>
+        <!-- IMPORTANT: Do not include a weinre script tag as part of your release builds! -->
+        <!-- Place your remote debugging (weinre) script URL from the Test tab here, if it does not work above -->
+        <!-- <script src="http://debug-software.intel.com/target/target-script-min.js#insertabiglongfunkynumberfromthexdkstesttab"></script> -->
+        <div class="upage" id="mainpage">
+            <div class="upage-outer">
+                <div class="upage-content ac0 content-area vertical-col left" id="page_87_75">
+                    <div class="card_grid widget uib_w_1 wrapping-col flex-basis-1 d-margins" data-uib="layout/card_grid" data-ver="0">
+
+                        <div class="widget widget-container content-area vertical-col uib-card cpad-0 uib_w_5 section-dimension-5" data-uib="layout/card" data-ver="0">
+                            <button class="btn widget uib_w_7 Farbe btn-default" data-uib="twitter%20bootstrap/button" data-ver="1" id="Header"><i class="glyphicon glyphicon-list button-icon-left" data-position="left"></i>Dajner</button>
+
+                        </div>
+                    </div>
+
+                    <div class="widget uib_w_18 scale-image Untertitel border-color2" data-uib="media/img" data-ver="0">
+                        <figure class="figure-align">
+                            <img src="images/kott.jpg" id="Kott">
+
+                            <figcaption data-position="bottom"></figcaption>
+                        </figure>
+                    </div>
+                    <div class="well no_wrap  widget uib_w_19 d-margins Hintergrund" data-uib="twitter%20bootstrap/well" data-ver="1" id="textcard">
+                        <div class="col uib_col_5 single-col" data-uib="layout/col" data-ver="0">
+                            <div class="widget-container content-area vertical-col">
+                                <div class="tarea widget uib_w_20 d-margins" data-uib="media/text" data-ver="0" name="uib_w_20">
+                                    <div class="widget-container left-receptacle"></div>
+                                    <div class="widget-container right-receptacle"></div>
+                                    <div class="text-container">
+                                        <p><strong>Meatballs Restaurant:</strong> Our new Awesome Recipe for Kottbullar!</p>
+                                    </div>
+                                </div>
+                                <span class="uib_shim"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="widget uib_w_18 scale-image Untertitel border-color2" data-uib="media/img" data-ver="0">
+                        <figure class="figure-align">
+                            <img src="images/risotto.jpg" id="Kott2">
+
+                            <figcaption data-position="bottom"></figcaption>
+                        </figure>
+                    </div>
+                    <div class="well no_wrap  widget uib_w_19 d-margins Hintergrund" data-uib="twitter%20bootstrap/well" data-ver="1" id="textcard2">
+                        <div class="col uib_col_5 single-col" data-uib="layout/col" data-ver="0">
+                            <div class="widget-container content-area vertical-col">
+                                <div class="tarea widget uib_w_20 d-margins" data-uib="media/text" data-ver="0" name="uib_w_20">
+                                    <div class="widget-container left-receptacle"></div>
+                                    <div class="widget-container right-receptacle"></div>
+                                    <div class="text-container">
+                                        <p><strong>Risotto Restaurant:</strong> New Risotto dishes for our customers!</p>
+                                    </div>
+                                </div>
+                                <span class="uib_shim"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="widget uib_w_18 scale-image Untertitel border-color2" data-uib="media/img" data-ver="0">
+                        <figure class="figure-align">
+                            <img src="images/chef.jpg" id="Kott2">
+
+                            <figcaption data-position="bottom"></figcaption>
+                        </figure>
+                    </div>
+                    <div class="well no_wrap  widget uib_w_19 d-margins Hintergrund" data-uib="twitter%20bootstrap/well" data-ver="1" id="textcard2">
+                        <div class="col uib_col_5 single-col" data-uib="layout/col" data-ver="0">
+                            <div class="widget-container content-area vertical-col">
+                                <div class="tarea widget uib_w_20 d-margins" data-uib="media/text" data-ver="0" name="uib_w_20">
+                                    <div class="widget-container left-receptacle"></div>
+                                    <div class="widget-container right-receptacle"></div>
+                                    <div class="text-container">
+                                        <p><strong>Risotto Restaurant:</strong> We're looking for a new chef for our awesome team!</p>
+                                    </div>
+                                </div>
+                                <span class="uib_shim"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="inner-element uib_w_8 uib_sidebar leftbar bar-bg thumb-bg bar-gutter swipe" data-uib="layout/left_sidebar" data-ver="1" data-anim="{'style':'overlap', 'v':200, 'side':'left', 'dur':200, 'io':true}" id="sidebar">
+                    <div class="sidebar-content content-area vertical-col">
+
+                        <button class="btn widget uib_w_9 d-margins btn-default" data-uib="twitter%20bootstrap/button" data-ver="1" id="btn_news"><i class="glyphicon glyphicon-fire button-icon-left" data-position="left"></i>Newsfeed</button>
+                        <button class="btn widget uib_w_10 d-margins btn-default" data-uib="twitter%20bootstrap/button" data-ver="1" id="btn_profile"><i class="glyphicon glyphicon-user button-icon-left" data-position="left"></i>Profile</button>
+                        <button class="btn widget uib_w_11 d-margins btn-default" data-uib="twitter%20bootstrap/button" data-ver="1" id="btn_jobs"><i class="fa fa-cutlery button-icon-left" data-position="left"></i>Jobs</button>
+                        <button class="btn widget uib_w_12 d-margins btn-default" data-uib="twitter%20bootstrap/button" data-ver="1" id="btn_applied"><i class="glyphicon glyphicon-list button-icon-left" data-position="left"></i>Applied</button>
+                        <button class="btn widget uib_w_13 d-margins btn-default" data-uib="twitter%20bootstrap/button" data-ver="1" id="btn_logout"><i class="glyphicon glyphicon-off button-icon-left" data-position="left"></i>Logout</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="upage vertical-col left hidden" id="Profile">
+            <div class="upage-outer">
+                <div class="upage-content ac0 content-area vertical-col left" id="page_87_75">
+                    <div class="card_grid widget uib_w_1 wrapping-col flex-basis-1 d-margins" data-uib="layout/card_grid" data-ver="0">
+
+                        <div class="widget widget-container content-area vertical-col uib-card cpad-0 uib_w_5 section-dimension-5 kopf" data-uib="layout/card" data-ver="0">
+                            <button class="btn widget uib_w_7 Farbe btn-default" data-uib="twitter%20bootstrap/button" data-ver="1" id="Header2"><i class="glyphicon glyphicon-list button-icon-left" data-position="left"></i>Dajner</button>
+
+                        </div>
+                    </div>
+
+                    <div class="widget uib_w_21 scale-image d-margins" data-uib="media/img" data-ver="0">
+                        <figure class="figure-align">
+                            <img src="images/xavier.png">
+
+                            <figcaption data-position="bottom"></figcaption>
+                        </figure>
+                    </div>
+                    <div class="widget uib_w_27 widget-container content-area vertical-col uib-card cpad-0 d-margins section-dimension-27" data-uib="layout/card" data-ver="0">
+                        <div class="tarea widget uib_w_28 d-margins profil" data-uib="media/text" data-ver="0" name="uib_w_28">
+                            <div class="widget-container left-receptacle"></div>
+                            <div class="widget-container right-receptacle"></div>
+                            <div class="text-container">
+                                <p><strong>Xavier Castello&nbsp;</strong>
+                                </p>
+
+                                <p>Chef&nbsp;</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_grid widget uib_w_22 wrapping-col d-margins flex-basis-22" data-uib="layout/card_grid" data-ver="0">
+                        <div class="widget widget-container content-area vertical-col uib-card cpad-0 uib_w_23 section-dimension-23" data-uib="layout/card" data-ver="0">
+                            <div class="tarea widget uib_w_25 d-margins profil" data-uib="media/text" data-ver="0" name="uib_w_25">
+                                <div class="widget-container left-receptacle"></div>
+                                <div class="widget-container right-receptacle"></div>
+                                <div class="text-container">
+                                    <p>
+                                        <button class="btn widget uib_w_11 d-margins btn-sm btn-default icons" data-uib="twitter%20bootstrap/button" data-ver="1" id="btn_jobs2"><i class="fa fa-cutlery button-icon-left" data-position="left"></i> 
+                                        </button>Meatballs Restaurant</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="widget widget-container content-area vertical-col uib-card cpad-0 uib_w_24 section-dimension-24" data-uib="layout/card" data-ver="0">
+                            <div class="tarea widget uib_w_26 d-margins profil" data-uib="media/text" data-ver="0" name="uib_w_26" id="below">
+                                <div class="widget-container left-receptacle"></div>
+                                <div class="widget-container right-receptacle"></div>
+                                <div class="text-container">
+                                    <p>
+                                        <button class="btn widget uib_w_11 d-margins icons btn-sm btn-default" data-uib="twitter%20bootstrap/button" data-ver="1" id="btn_jobs2"><i class="glyphicon glyphicon-user button-icon-left" data-position="left"></i>
+                                        </button>168</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="inner-element uib_w_8 uib_sidebar leftbar bar-bg thumb-bg bar-gutter swipe" data-uib="layout/left_sidebar" data-ver="1" data-anim="{'style':'overlap', 'v':200, 'side':'left', 'dur':200, 'io':true}" id="sidebar2">
+                    <div class="sidebar-content content-area vertical-col">
+
+                        <button class="btn widget uib_w_9 d-margins btn-default" data-uib="twitter%20bootstrap/button" data-ver="1" id="btn_news2"><i class="glyphicon glyphicon-fire button-icon-left" data-position="left"></i>Newsfeed</button>
+                        <button class="btn widget uib_w_10 d-margins btn-default" data-uib="twitter%20bootstrap/button" data-ver="1" id="btn_profile2"><i class="glyphicon glyphicon-user button-icon-left" data-position="left"></i>Profile</button>
+                        <button class="btn widget uib_w_11 d-margins btn-default" data-uib="twitter%20bootstrap/button" data-ver="1" id="btn_jobs2"><i class="fa fa-cutlery button-icon-left" data-position="left"></i>Jobs</button>
+                        <button class="btn widget uib_w_12 d-margins btn-default" data-uib="twitter%20bootstrap/button" data-ver="1" id="btn_applied2"><i class="glyphicon glyphicon-list button-icon-left" data-position="left"></i>Applied</button>
+                        <button class="btn widget uib_w_13 d-margins btn-default" data-uib="twitter%20bootstrap/button" data-ver="1" id="btn_logout2"><i class="glyphicon glyphicon-off button-icon-left" data-position="left"></i>Logout</button>
+                    </div>
+                </div>
+
+                <div class="well no_wrap  widget uib_w_19 d-margins Hintergrund" data-uib="twitter%20bootstrap/well" data-ver="1" id="textcard2">
+                    <div class="col uib_col_5 single-col" data-uib="layout/col" data-ver="0">
+                        <div class="widget-container content-area vertical-col">
+                            <div class="tarea widget uib_w_20 d-margins" data-uib="media/text" data-ver="0" name="uib_w_20">
+                                <div class="widget-container left-receptacle"></div>
+                                <div class="widget-container right-receptacle"></div>
+                                <div class="text-container">
+                                    <p><strong>Experience <br><br></strong> 2011-2016: Meatballs Restaurant
+                                        <br>
+                                        <br>2006-2011: Dinner for two Restaurant</p>
+                                </div>
+                            </div>
+                            <span class="uib_shim"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="well no_wrap  widget uib_w_19 d-margins Hintergrund" data-uib="twitter%20bootstrap/well" data-ver="1" id="textcard2">
+                    <div class="col uib_col_5 single-col" data-uib="layout/col" data-ver="0">
+                        <div class="widget-container content-area vertical-col">
+                            <div class="tarea widget uib_w_20 d-margins" data-uib="media/text" data-ver="0" name="uib_w_20">
+                                <div class="widget-container left-receptacle"></div>
+                                <div class="widget-container right-receptacle"></div>
+                                <div class="text-container">
+                                    <p><strong>Education <br><br></strong> 2003-2006: Cook School Paris
+                                        <br>
+                                        <br>2000-2003: Lansing High School</p>
+                                </div>
+                            </div>
+                            <span class="uib_shim"></span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="upage vertical-col left hidden" id="Jobs">
+            <div class="upage-outer">
+                <div class="upage-content ac0 content-area vertical-col left" id="page_87_75">
+                    <div class="card_grid widget uib_w_1 wrapping-col flex-basis-1 d-margins" data-uib="layout/card_grid" data-ver="0">
+
+                        <div class="widget widget-container content-area vertical-col uib-card cpad-0 uib_w_5 section-dimension-5" data-uib="layout/card" data-ver="0">
+                            <button class="btn widget uib_w_7 Farbe btn-default" data-uib="twitter%20bootstrap/button" data-ver="1" id="Header3"><i class="glyphicon glyphicon-list button-icon-left" data-position="left"></i>Dajner</button>
+
+                        </div>
+                    </div>
+
+                    <div class="list-group widget uib_w_29 d-margins" data-uib="twitter%20bootstrap/list_group" data-ver="1">
+                        <a class="list-group-item allow-badge widget uib_w_30" data-uib="twitter%20bootstrap/list_item" data-ver="1" id="Risotto">
+                            <h4 class="list-group-item-heading">Risotto Restaurant</h4>
+                            <p class="list-group-item-text">Looking for a Chef. 10 years of experience Required</p>
+                        </a>
+                        <a class="list-group-item allow-badge widget uib_w_31" data-uib="twitter%20bootstrap/list_item" data-ver="1">
+                            <h4 class="list-group-item-heading">Meatballs Restaurant</h4>
+                            <p class="list-group-item-text">Looking for waiters on a hourly basis. No Experience required.</p>
+                        </a>
+                        <a class="list-group-item allow-badge widget uib_w_33 d-margins" data-uib="twitter%20bootstrap/list_item" data-ver="1">
+                            <h4 class="list-group-item-heading">Casa Da Toni </h4>
+                            <p class="list-group-item-text">We are still looking for a new Barista! Just apply through the app!</p>
+                        </a>
+                        <a class="list-group-item allow-badge widget uib_w_32 liste" data-uib="twitter%20bootstrap/list_item" data-ver="1">
+                            <h4 class="list-group-item-heading">Chez Marlène</h4>
+                            <p class="list-group-item-text">We are building a new team. Love to hear from you!</p>
+                        </a>
+                        <a class="list-group-item allow-badge widget uib_w_31" data-uib="twitter%20bootstrap/list_item" data-ver="1">
+                            <h4 class="list-group-item-heading">Meatballs Restaurant</h4>
+                            <p class="list-group-item-text">Looking for waiters on a hourly basis. No Experience required.</p>
+                        </a>
+                        <a class="list-group-item allow-badge widget uib_w_30" data-uib="twitter%20bootstrap/list_item" data-ver="1">
+                            <h4 class="list-group-item-heading">Risotto Restaurant</h4>
+                            <p class="list-group-item-text">Looking for a Chef. 10 years of experience Required</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="inner-element uib_w_8 uib_sidebar leftbar bar-bg thumb-bg bar-gutter swipe" data-uib="layout/left_sidebar" data-ver="1" data-anim="{'style':'overlap', 'v':200, 'side':'left', 'dur':200, 'io':true}" id="sidebar3">
+                    <div class="sidebar-content content-area vertical-col">
+
+                        <button class="btn widget uib_w_9 d-margins btn-default" data-uib="twitter%20bootstrap/button" data-ver="1" id="btn_news3"><i class="glyphicon glyphicon-fire button-icon-left" data-position="left"></i>Newsfeed</button>
+                        <button class="btn widget uib_w_10 d-margins btn-default" data-uib="twitter%20bootstrap/button" data-ver="1" id="btn_profile3"><i class="glyphicon glyphicon-user button-icon-left" data-position="left"></i>Profile</button>
+                        <button class="btn widget uib_w_11 d-margins btn-default" data-uib="twitter%20bootstrap/button" data-ver="1" id="btn_jobs3"><i class="fa fa-cutlery button-icon-left" data-position="left"></i>Jobs</button>
+                        <button class="btn widget uib_w_12 d-margins btn-default" data-uib="twitter%20bootstrap/button" data-ver="1" id="btn_applied3"><i class="glyphicon glyphicon-list button-icon-left" data-position="left"></i>Applied</button>
+                        <button class="btn widget uib_w_13 d-margins btn-default" data-uib="twitter%20bootstrap/button" data-ver="1" id="btn_logout2"><i class="glyphicon glyphicon-off button-icon-left" data-position="left"></i>Logout</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="upage vertical-col left hidden" id="Applied">
+            <div class="upage-outer">
+                <div class="upage-content ac0 content-area vertical-col left" id="page_87_75">
+                    <div class="card_grid widget uib_w_1 wrapping-col flex-basis-1 d-margins" data-uib="layout/card_grid" data-ver="0">
+
+                        <div class="widget widget-container content-area vertical-col uib-card cpad-0 uib_w_5 section-dimension-5" data-uib="layout/card" data-ver="0">
+                            <button class="btn widget uib_w_7 btn-default Farbe" data-uib="twitter%20bootstrap/button" data-ver="1" id="Header4"><i class="glyphicon glyphicon-list button-icon-left" data-position="left"></i>Dajner</button>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="inner-element uib_w_8 uib_sidebar leftbar bar-bg thumb-bg bar-gutter swipe" data-uib="layout/left_sidebar" data-ver="1" data-anim="{'style':'overlap', 'v':200, 'side':'left', 'dur':200, 'io':true}" id="sidebar4">
+                    <div class="sidebar-content content-area vertical-col">
+
+                        <button class="btn widget uib_w_9 d-margins btn-default" data-uib="twitter%20bootstrap/button" data-ver="1" id="btn_news4"><i class="glyphicon glyphicon-fire button-icon-left" data-position="left"></i>Newsfeed</button>
+                        <button class="btn widget uib_w_10 d-margins btn-default" data-uib="twitter%20bootstrap/button" data-ver="1" id="btn_profile4"><i class="glyphicon glyphicon-user button-icon-left" data-position="left"></i>Profile</button>
+                        <button class="btn widget uib_w_11 d-margins btn-default" data-uib="twitter%20bootstrap/button" data-ver="1" id="btn_jobs4"><i class="fa fa-cutlery button-icon-left" data-position="left"></i>Jobs</button>
+                        <button class="btn widget uib_w_12 d-margins btn-default" data-uib="twitter%20bootstrap/button" data-ver="1" id="btn_applied4"><i class="glyphicon glyphicon-list button-icon-left" data-position="left"></i>Applied</button>
+                        <button class="btn widget uib_w_13 d-margins btn-default" data-uib="twitter%20bootstrap/button" data-ver="1" id="btn_logout"><i class="glyphicon glyphicon-off button-icon-left" data-position="left"></i>Logout</button>
+                    </div>
+                </div>
+            </div>
+            <a class="list-group-item allow-badge widget uib_w_30" data-uib="twitter%20bootstrap/list_item" data-ver="1">
+                <h4 class="list-group-item-heading">Risotto Restaurant</h4>
+                <p class="list-group-item-text">Looking for a Chef. 10 years of experience Required</p>
+            </a>
+        </div>
+
+        <div class="card_grid widget uib_w_1 wrapping-col flex-basis-1 d-margins" data-uib="layout/card_grid" data-ver="0">
+
+            <div class="widget widget-container content-area vertical-col uib-card cpad-0 uib_w_5 section-dimension-5" data-uib="layout/card" data-ver="0">
+                <button class="btn widget uib_w_7 Farbe btn-default" data-uib="twitter%20bootstrap/button" data-ver="1" id="Header5"><i class="glyphicon glyphicon-list button-icon-left" data-position="left"></i>Dajner</button>
+
+            </div>
+        </div>
+
+        <div class="inner-element uib_w_8 uib_sidebar leftbar bar-bg thumb-bg bar-gutter swipe" data-uib="layout/left_sidebar" data-ver="1" data-anim="{'style':'overlap', 'v':200, 'side':'left', 'dur':200, 'io':true}" id="sidebar5">
+            <div class="sidebar-content content-area vertical-col">
+
+                <button class="btn widget uib_w_9 d-margins btn-default" data-uib="twitter%20bootstrap/button" data-ver="1" id="btn_news5"><i class="glyphicon glyphicon-fire button-icon-left" data-position="left"></i>Newsfeed</button>
+                <button class="btn widget uib_w_10 d-margins btn-default" data-uib="twitter%20bootstrap/button" data-ver="1" id="btn_profile5"><i class="glyphicon glyphicon-user button-icon-left" data-position="left"></i>Profile</button>
+                <button class="btn widget uib_w_11 d-margins btn-default" data-uib="twitter%20bootstrap/button" data-ver="1" id="btn_jobs5"><i class="fa fa-cutlery button-icon-left" data-position="left"></i>Jobs</button>
+                <button class="btn widget uib_w_12 d-margins btn-default" data-uib="twitter%20bootstrap/button" data-ver="1" id="btn_applied5"><i class="glyphicon glyphicon-list button-icon-left" data-position="left"></i>Applied</button>
+                <button class="btn widget uib_w_13 d-margins btn-default" data-uib="twitter%20bootstrap/button" data-ver="1" id="btn_logout5"><i class="glyphicon glyphicon-off button-icon-left" data-position="left"></i>Logout</button>
+            </div>
+        </div>
+        <div class="upage hidden" id="Restaurant">
+            <div class="upage-outer">
+                <div class="upage-content ac0 content-area vertical-col left" id="page_63_80">
+                    <div class="widget uib_w_34 scale-image d-margins" data-uib="media/img" data-ver="0">
+
+                        <figure class="figure-align">
+                            <img src="images/risotto.png">
+
+                            <figcaption data-position="bottom"></figcaption>
+                        </figure>
+                    </div>
+                    <div class="card_grid widget uib_w_22 wrapping-col d-margins flex-basis-22" data-uib="layout/card_grid" data-ver="0">
+                        <div class="widget widget-container content-area vertical-col uib-card cpad-0 uib_w_23 section-dimension-23" data-uib="layout/card" data-ver="0">
+                            <div class="tarea widget uib_w_25 d-margins profil" data-uib="media/text" data-ver="0" name="uib_w_25">
+                                <div class="widget-container left-receptacle"></div>
+                                <div class="widget-container right-receptacle"></div>
+                                <div class="text-container">
+                                    <p>
+                                        <button class="btn widget uib_w_11 d-margins btn-sm btn-default icons" data-uib="twitter%20bootstrap/button" data-ver="1" id="btn_jobs2"><i class="fa fa-cutlery button-icon-left" data-position="left"></i> 
+                                        </button>Looking for a chef.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="widget widget-container content-area vertical-col uib-card cpad-0 uib_w_24 section-dimension-24" data-uib="layout/card" data-ver="0">
+                            <div class="tarea widget uib_w_26 d-margins profil" data-uib="media/text" data-ver="0" name="uib_w_26" id="below">
+                                <div class="widget-container left-receptacle"></div>
+                                <div class="widget-container right-receptacle"></div>
+                                <div class="text-container">
+                                    <p>
+                                        <button class="btn widget uib_w_11 d-margins icons btn-sm btn-default" data-uib="twitter%20bootstrap/button" data-ver="1" id="btn_jobs2"><i class="glyphicon glyphicon-user button-icon-left" data-position="left"></i>
+                                        </button>53</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="well no_wrap  widget uib_w_19 d-margins Hintergrund" data-uib="twitter%20bootstrap/well" data-ver="1" id="textcard">
+                        <div class="col uib_col_5 single-col" data-uib="layout/col" data-ver="0">
+                            <div class="widget-container content-area vertical-col">
+                                <div class="tarea widget uib_w_20 d-margins" data-uib="media/text" data-ver="0" name="uib_w_20">
+                                    <div class="widget-container left-receptacle"></div>
+                                    <div class="widget-container right-receptacle"></div>
+                                    <div class="text-container">
+                                        <p><strong>Looking for a chef:</strong> From March on we are lookin for a new chef for our team. You should have at least ten years of experience and be a passionate team worker. We specialize in italian quisine and
+                                            are a young and creative team. Apply here!
+                                            <br>
+                                            <br><strong>Matching your profile: 60%</strong>
+                                        </p>
+                                    </div>
+                                </div>
+                                <span class="uib_shim"></span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <button class="btn widget uib_w_35 d-margins btn-default applybtn" data-uib="twitter%20bootstrap/button" data-ver="1" id="apply_btn">APPLY NOW</button>
+                </div>
+            </div>
+
+            <div class="modal outer-element uib_w_36" data-uib="twitter%20bootstrap/modal" data-ver="1" data-backdrop="true" id="alert">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Application succesful!</h4>
+                        </div>
+
+                        <div class="modal-body">
+                            <div class="col uib_col_6 single-col" data-uib="layout/col" data-ver="0">
+                                <div class="widget-container content-area vertical-col">
+                                    <button class="btn widget uib_w_37 d-margins btn-default" data-uib="twitter%20bootstrap/button" data-ver="1" id="OK">OK <i class="glyphicon glyphicon-ok button-icon-right" data-position="right"></i>
+                                    </button>
+                                    <span class="uib_shim"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
